@@ -27,7 +27,7 @@ export default function Home() {
 
     // Check for a draw
     if (!squares.includes(null)) {
-      setGameResult('It\'s a draw!');
+      setGameResult('It is a draw!');
     }
   };
 
@@ -62,9 +62,9 @@ export default function Home() {
         </h1>
         <div>
         {playerOne?
-        <p className='m-6 text-3xl text-center'>X player's turn</p>
+        <p className='m-6 text-3xl text-center'>X player turn</p>
           :
-          <p className='m-6 text-3xl text-center'>O player's turn</p>
+          <p className='m-6 text-3xl text-center'>O player turn</p>
         }
         </div>
       <div className="absolute inset-x-0	inset-y-0	 m-auto	w-6/12	h-80	grid grid-cols-3">
